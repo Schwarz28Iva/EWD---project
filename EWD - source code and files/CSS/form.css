@@ -1,0 +1,12 @@
+form{
+font-size: 30px;
+}
+
+input{
+font-size: 25px;
+padding: 2px 5px;
+}
+
+input:focus {
+  background-color: lightblue;
+}

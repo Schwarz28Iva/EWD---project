@@ -1,0 +1,55 @@
+#news {
+   background-color: #333; 
+   background-image: linear-gradient(to left, #434343 0%, black 100%);
+   color:white; 
+   font-size:35px; 
+   font-family: Arial, Gadget, sans-serif;
+}
+
+#containerhome { 
+   width:410px; 
+   height:1215px; /*Casuta care contine tot, facuta dupa marimea main view-ului.*/
+   margin:auto;
+   z-index: 1; /* Stay on top */ 
+}
+
+#outerdivhome {
+   width:410px;
+   height:1215px; /*Cat arata pe site-ul meu din celalalt site.*/
+   overflow:scroll;
+   position:relative;
+   top:0px;
+   z-index: 1; /* Stay on top */
+}
+
+#containergames { 
+   width:410px; 
+   height:890px; /*Casuta care contine tot, facuta dupa marimea main view-ului.*/
+   margin:auto;
+   z-index: 1; /* Stay on top */ 
+}
+
+#outerdivgames {
+   width:410px;
+   height:890px; /*Cat arata pe site-ul meu din celalalt site.*/
+   overflow:scroll;
+   position:relative;
+   top:0px;
+   z-index: 1; /* Stay on top */
+}
+
+#innerdiv {
+   position:absolute;
+   top:-130px;
+   left:-385px;
+   width:778px;
+   height:4930px; /*Interiorul site-ului, cat imi arata din celalalt site efectiv. */
+   z-index: 1; /* Stay on top */
+}
+
+#muzica {
+   float:right;
+   position:sticky;
+   top:0;
+   margin-right:35px;
+}

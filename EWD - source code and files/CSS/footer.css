@@ -1,0 +1,21 @@
+pfooter{
+   font-size:15px;
+   color:white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+titlefooter{
+   font-size: 20px;
+   font-family: Impact, Charcoal, sans-serif;
+   color:white;
+}
+
+.footer {
+   position:static;
+   bottom: 0;
+   width:70%;
+   padding: 20px;
+   margin:auto;
+   background-color: #333;
+   background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
